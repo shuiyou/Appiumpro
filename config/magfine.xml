@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <page pageName="测试页面">
+        <locator type="id" value="selectEnv">请选择</locator>
+	    <locator type="xpath" value="//XCUIElementTypeTextField[@name='IntegerA']">数字A</locator>
+		<locator type="xpath" value="//XCUIElementTypeTextField[@name='IntegerB']">数字B</locator>
+		<locator type="xpath" value="//XCUIElementTypeButton[@name='ComputeSumButton']">运算加号</locator>
+        <locator type="xpath" value="//XCUIElementTypeStaticText[@name='Answer']">结果</locator>
+        <locator type="xpath" value="//XCUIElementTypeSlider[@name='AppElem']">滑动按钮</locator>
+    </page>
+</map>
